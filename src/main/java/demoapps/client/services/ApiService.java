@@ -7,7 +7,7 @@ import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.stereotype.Service;
 
 @Service
-public class OAuthService {
+public class ApiService {
 	
     @Autowired
     private OAuth2RestOperations oauthTemplate;
