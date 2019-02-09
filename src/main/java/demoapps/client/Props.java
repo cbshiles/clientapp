@@ -20,31 +20,31 @@ public class Props {
 	@Value ("${app.redirectPath}")
 	private String redirectPath;
 	
-	@Value ("${app.tokenPath}")
-	private String tokenPath;
+//	@Value ("${app.tokenPath}")
+//	private String tokenPath;
 	
-	@Value ("${app.authPath}")
-	private String authPath;
+//	@Value ("${app.authPath}")
+//	private String authPath;
 	
-	@Value ("${app.jwkPath}")
-	private String jwkPath;
+//	@Value ("${app.jwkPath}")
+//	private String jwkPath;
 	
 	
 	public String redirectUri() {
 	    return baseUri+redirectPath;
 	}
 	
-	public String tokenUri() {
-	    return authUri+tokenPath;
-	}
+//	public String tokenUri() {
+//	    return authUri+tokenPath;
+//	}
 	
-	public String authUri() {
-	    return authUri+authPath;
-	}
+//	public String authUri() {
+//	    return authUri+authPath;
+//	}
 	
-	public String jwkUri() {
-	    return authUri+jwkPath;
-	}
+//	public String jwkUri() {
+//	    return authUri+jwkPath;
+//	}
 	
 	public String issuer() {
 		return baseUri;
